@@ -1,7 +1,7 @@
 <form class="{{cssClass}}" autocomplete="off">
  
     {{!-- Hidden inputs to reflect the sheet class and force standard crit range --}}
-    <input type="hidden" id="data.details.sheetClass" name="data.details.sheetClass" value="Kith" data-dtype="String"/>
+    <input type="hidden" id="data.details.sheetClass" name="data.details.sheetClass" value="Brytest" data-dtype="String"/>
     <input type="hidden" id="data.details.critRange" name="data.details.critRange" value="20" data-dtype="Number"/>
 
     {{!-- Sheet Header --}}
@@ -11,7 +11,7 @@
     <nav class="sheet-tabs tabs" data-group="primary">
         <a class="item" data-tab="character">{{localize "DCC.Character"}}</a>
         <a class="item" data-tab="equipment">{{localize "DCC.Equipment"}}</a>
-        <a class="item" data-tab="class">{{localize "Kith.Kith"}}</a>
+        <a class="item" data-tab="class">{{localize "Brytest.Brytest"}}</a>
         <a class="item" data-tab="notes">{{localize "DCC.Notes"}}</a>
     </nav>
 
@@ -29,47 +29,47 @@
 
         {{!-- Class Tab --}}
         <div class="tab" data-group="primary" data-tab="class">
-            <h4 class="class-label">{{localize "Kith.KithAbilities"}}</h4>
+            <h4 class="class-label">{{localize "Brytest.BrytestAbilities"}}</h4>
             <div class="class">
                 <div class="skills-container">
                     <div class="flexrow" data-skill="tracking">
-                      <label class="skill-check rollable" for="data.skills.tracking.value">{{localize "Kith.Tracking"}}</label>
+                      <label class="skill-check rollable" for="data.skills.tracking.value">{{localize "Brytest.Tracking"}}</label>
                       <input type="text" id="data.skills.tracking.value" name="data.skills.tracking.value" value="{{data.skills.tracking.value}}" data-dtype="String"/>
                     </div>
                     <div class="flexrow" data-skill="detectTraps">
-                      <label class="skill-check rollable" for="data.skills.detectTraps.value">{{localize "Kith.DetectTraps"}}</label>
+                      <label class="skill-check rollable" for="data.skills.detectTraps.value">{{localize "Brytest.DetectTraps"}}</label>
                       <input type="text" id="data.skills.detectTraps.value" name="data.skills.detectTraps.value" value="{{data.skills.detectTraps.value}}" data-dtype="String"/>
                     </div>
                     <div class="flexrow" data-skill="detectHiddenFoes">
-                      <label class="skill-check rollable" for="data.skills.detectHiddenFoes.value">{{localize "Kith.DetectHiddenFoes"}}</label>
+                      <label class="skill-check rollable" for="data.skills.detectHiddenFoes.value">{{localize "Brytest.DetectHiddenFoes"}}</label>
                       <input type="text" id="data.skills.detectHiddenFoes.value" name="data.skills.detectHiddenFoes.value" value="{{data.skills.detectHiddenFoes.value}}" data-dtype="String"/>
                     </div>
                     <div class="flexrow" data-skill="burnDie">
-                      <label class="skill-check rollable" for="data.skills.burnDie.die">{{localize "Kith.BurnDie"}}</label>
+                      <label class="skill-check rollable" for="data.skills.burnDie.die">{{localize "Brytest.BurnDie"}}</label>
                       <input type="text" id="data.skills.burnDie.die" name="data.skills.burnDie.die" value="{{data.skills.burnDie.die}}" data-dtype="String"/>
                     </div>
                 </div>
 
                 <ul class="class-note flexcol">
                   <li>
-                    {{localize "Kith.WildernessSurvivor"}}
+                    {{localize "Brytest.WildernessSurvivor"}}
                     <ul>
-                      <li>{{localize "Kith.RecogniseMushroomsAndFouledWater"}}</li>
-                      <li>{{localize "Kith.TrackingSkills"}}</li>
+                      <li>{{localize "Brytest.RecogniseMushroomsAndFouledWater"}}</li>
+                      <li>{{localize "Brytest.TrackingSkills"}}</li>
                     </ul>
                   </li>
                   <li>
-                    {{localize "Kith.ForceOfWill"}}
+                    {{localize "Brytest.ForceOfWill"}}
                     <ul>
-                      <li>{{localize "Kith.BurnDieDescription"}}</li>
-                      <li>{{localize "Kith.BurnDieHealing"}}</li>
-                      <li>{{localize "Kith.BurnDieRecovery"}}</li>
+                      <li>{{localize "Brytest.BurnDieDescription"}}</li>
+                      <li>{{localize "Brytest.BurnDieHealing"}}</li>
+                      <li>{{localize "Brytest.BurnDieRecovery"}}</li>
                     </ul>
                   </li>
                   <li>
-                    {{localize "Kith.Luck"}}</li>
+                    {{localize "Brytest.Luck"}}</li>
                     <ul>
-                      <li>{{localize "Kith.LuckDescription"}}</li>
+                      <li>{{localize "Brytest.LuckDescription"}}</li>
                     </ul>
                   </li>
                 </div>
